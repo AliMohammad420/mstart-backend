@@ -5,8 +5,7 @@ const users = require("./users.model.js");
 const deals = require("./deals.model.js");
 const claimed = require("./claimed.model.js");
 
-const POSTGRES_URL = process.env.DATABASE_URL  || "postgresql://ali:1312@localhost:5432/ali";
-
+const POSTGRES_URL = process.env.DATABASE_URL  || "postgres://mstart_user:Eu5WwVdM7R6sEWMCMe6LLAmcYHaVDQw9@dpg-cgdelgl269v52g7beueg-a.frankfurt-postgres.render.com/mstart";
 const sequelizeOption = {
     dialectOptions: {
      ssl: {
